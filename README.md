@@ -1,11 +1,10 @@
 # Beamforming PROJECT
 General idea: A-mode ultrasound data from many neighboring transducers. Reconstructing these signals into images is called B-mode ultrasound. We know the depth from where the reflections originate, and should be able to attribute each change in propagation speed (of send out soundwave) at tissue borders to one transducer. 
 
-Beamforming with DAS (Delay-and-Sum)
+Beamforming with DAS (Delay-and-Sum):
+- [Delay and Sum](<media/delay and sum.png>) concept image. The delays to each transducer from the source can create a focused and directed beam of ultrasound. Transducers are sending pulses and listening for reflections, thus serving as actuator and sensor at the same time. During B-mode imaging, the signals arriving at transducers from the same reflected object (but with slightly different delays) are "shifted" to overlap and summed together to get high amplitude signal. 
 
-![Alt text](media/image_reconstruction.png)
-
-![Alt text](<media/delay and sum.png>)
+![Image reconstruction](media/image_reconstruction.png)
 
 - [Polybox Link](https://polybox.ethz.ch/index.php/apps/files/?dir=/WUPS%20Project&fileid=3513953695)
 
