@@ -19,3 +19,8 @@ I found [this](https://medium.com/@jonathanmines/the-ultimate-github-collaborati
 I am currently working on taking this ToDo on trello, because Kanban is the better tool imo
 
 
+Beamforming with DAS (Delay-and-Sum)
+
+![Alt text](image.png)
+
+![Alt text](image-1.png)
