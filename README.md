@@ -28,3 +28,5 @@ The BIG steps until project completion:
 
 I am currently working on migrating these [ToDos to trello](https://trello.com/b/LNgm3pRo), because Kanban is the better tool for project planning imo
 
+## Python Environment
+- In VS Code `%matplotlib notebook` doesn't work, because it is a javascript injection into the browser (VS Code jupyter notebook is different). To still use an interactive matplotlib widget you have to install a [library](https://matplotlib.org/ipympl/) with `conda install -c conda-forge ipympl` and use `%matplotlib ipympl`. Then upon execution allow the additional downloads and choose from *Change Presentation* menu (three dots next to the output below the executed cell) to "application/vscode...widget".
