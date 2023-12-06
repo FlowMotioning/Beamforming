@@ -1,15 +1,14 @@
 # Import PyBF library
 import numpy as np
 from scipy import signal as ss
-import sys
-
-# has be done to import pybf library from a folder
-path_to_lib = '../juypter/pybf/pybf/'
-sys.path.insert(0, path_to_lib)
-from pybf.scripts.beamformer_cartesian_realtime import BFCartesianRealTime
-from pybf.pybf.transducer import Transducer
-from pybf.pybf.image_settings import ImageSettings
-from pybf.pybf.visualization import plot_image
+'''
+import sys, os
+look here if below import doesn't work: https://stackoverflow.com/questions/7505988/importing-from-a-relative-path-in-python
+'''
+from ..juypter.pybf.scripts.beamformer_cartesian_realtime import BFCartesianRealTime
+from ..juypter.pybf.pybf.transducer import Transducer
+from ..juypter.pybf.pybf.visualization import plot_image
+from ..juypter.pybf.pybf.image_settings import ImageSettings
 
 # Load raw RF data
 rf_data = np.genfromtxt('raw_data_beamforming.csv', delimiter=',')
