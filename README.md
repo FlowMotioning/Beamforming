@@ -36,6 +36,16 @@ The BIG steps until project completion:
 ## Trello
 
 I am currently working on migrating these [ToDos to trello](https://trello.com/b/LNgm3pRo), because Kanban is the better tool for project planning imo
+- small [introduction to kanban](https://www.atlassian.com/agile/kanban):
+    - visual representation of project (transparency and overview of work being done)
+    - flexible assignment of tasks
+    - flowing work because of granularity (not "sprints" where big tasks are done 1 by 1)
+- detailed explanation of each step in [kanban project management](https://thedigitalprojectmanager.com/projects/pm-methodology/how-to-use-kanban-project-management/)
+    - Column: This is your status view
+    - Cards: holds the task or work item to be completed. Ensure you keep these tasks small and achievable
+    - Feedback Loop: everyone should be part of the decision making process, through meetings establish retrospection and improvements
+        -  Allows all team members to take a leadership role or accountability role
+    - **kanban is as easy as moving cards between status columns!**
 
 ## Python Environment
 - In VS Code `%matplotlib notebook` doesn't work, because it is a javascript injection into the browser (VS Code jupyter notebook is different). To still use an interactive matplotlib widget you have to install a [library](https://matplotlib.org/ipympl/) with `conda install -c conda-forge ipympl` and use `%matplotlib ipympl`. Then upon execution allow the additional downloads and choose from *Change Presentation* menu (three dots next to the output below the executed cell) to "application/vscode...widget".
