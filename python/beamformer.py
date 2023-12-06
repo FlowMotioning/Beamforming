@@ -1,14 +1,14 @@
 # Import PyBF library
 import numpy as np
-from scipy import signal as ss
-'''
 import sys, os
+'''
 look here if below import doesn't work: https://stackoverflow.com/questions/7505988/importing-from-a-relative-path-in-python
 '''
-from ..juypter.pybf.scripts.beamformer_cartesian_realtime import BFCartesianRealTime
-from ..juypter.pybf.pybf.transducer import Transducer
-from ..juypter.pybf.pybf.visualization import plot_image
-from ..juypter.pybf.pybf.image_settings import ImageSettings
+sys.path.append('../jupyter')
+from pybf.scripts.beamformer_cartesian_realtime import BFCartesianRealTime
+from pybf.pybf.transducer import Transducer
+from pybf.pybf.visualization import plot_image
+from pybf.pybf.image_settings import ImageSettings
 # from beamformer import Transducer, ImageSettings, BFCartesianRealTime, plot_image
 
 ### Specify Trancducer settings and create transducer object ###
@@ -25,8 +25,6 @@ from ..juypter.pybf.pybf.image_settings import ImageSettings
 # }
 
 class Delay_and_Sum_Beamformer:
-    def __init__(self, path_to_data, transducer_config):
-        self.path_to_data = path_to_data
     def __init__(self, path_to_data, transducer_config=None):
         self.path_to_data = path_to_data
         self.transducer_config = transducer_config or {
