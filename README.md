@@ -1,13 +1,15 @@
 # Beamforming WUPS Project
 General idea: A-mode ultrasound data from many neighboring transducers. Reconstructing these signals into images is called B-mode ultrasound. We know the depth from where the reflections originate, and should be able to attribute each change in propagation speed (of send out soundwave) at tissue borders to one transducer. The process to get the 2D brightness map from raw ultrasound data is called **beamforming**. 
 
+- [Project Proposal Slide](<media/wups project proposal.png>)
+
 Please refer to the [notes](notes/mindmap.md) for theory and explanation of this technology
 
 Beamforming with DAS (Delay-and-Sum):
 - [Delay and Sum](juypter/images/ex6_beamforming_das.drawio.png) concept image. The delays to each transducer from the source can create a focused and directed beam of ultrasound. Transducers are sending pulses and listening for reflections, thus serving as actuator and sensor at the same time. During B-mode imaging, the signals arriving at transducers from the same reflected object (but with slightly different delays) are "shifted" to overlap and summed together to get high amplitude signal.
     - [Delay and Sum Concept Note](notes/beamforming_DAS.md)
 
-[Image reconstruction](media/image_reconstruction.png)
+- [Image reconstruction](media/image_reconstruction.png)
 
 - [Polybox Link](https://polybox.ethz.ch/index.php/apps/files/?dir=/WUPS%20Project&fileid=3513953695)
 
