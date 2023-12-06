@@ -1,2 +1,2 @@
 # ignored directories
-jupyter/pybf/
+**.pyc
