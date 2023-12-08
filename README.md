@@ -31,6 +31,7 @@ For the **in vivo** [dataset](https://www.creatis.insa-lyon.fr/Challenge/IEEE_IU
 I found [this](https://medium.com/@jonathanmines/the-ultimate-github-collaboration-guide-df816e98fb67#:~:text=How%20to%20Collaborate%20on%20GitHub%201%20%20Step,Repeat.%20And%20that%E2%80%99s%20pretty%20much%20it%21%20See%20More.) short but nice rundown of how to collaborate using Git. 
 
 ## Python Environment
+- IMPORTANT: Make sure you have [this](environment.yml) environment installed. This is done with `conda env create -f environment.yml`. To update your already existing instance, use `conda activate <environment_name>` (activate your environment), followed by `conda env update --name <environment_name> --file environment.yml --prune` (`<environment_name>` for example `wups`). 
 - In VS Code `%matplotlib notebook` doesn't work, because it is a javascript injection into the browser (VS Code jupyter notebook is different). To still use an interactive matplotlib widget you have to install a [library](https://matplotlib.org/ipympl/) with `conda install -c conda-forge ipympl` and use `%matplotlib ipympl`. Then upon execution allow the additional downloads and choose from *Change Presentation* menu (three dots next to the output below the executed cell) to "application/vscode...widget".
 
 # Roadmap
