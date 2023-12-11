@@ -4,4 +4,5 @@ Linking to other .md files is done with *relative links*, as is described [here]
 
 - [Template for Concept Notes](concept_template.md)
 - [Beamforming theory](beamforming.md)
+- [Python Environment Overview](<important environments.md>)
 - another note
