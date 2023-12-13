@@ -12,17 +12,10 @@ See [Structure of the repository](https://github.com/Sergio5714/pybf/tree/master
 - `scripts`: here are the functions that implement even entire piple for image reconstruction
 - `tests`: some testing functions to determine the quality and performance of the data/algorithms. There are tests that use the **PICMUS** dataset. IMPORTANT: put the folder `Picmus` into the pybf library, such that the path is `Beamforming/juypter/pybf/tests/data/Picmus`
 
-## Benefits
-<!-- Describe the potential benefits or advantages of implementing the concept.-->
-
 ## Implementation
 <!-- Outline the steps or process required to implement the concept.-->
+"All code necessary to acquaint oneself with the pybf library's different beamformers is located under `tests/code/`" (from README.md of PyBF)
 
-## Use Cases
-<!-- Provide examples or scenarios where the concept can be applied.-->
-
-## Challenges
-<!-- Identify any potential challenges or obstacles that may arise during the implementation of the concept.-->
-
-## Conclusion
-<!-- Summarize the concept and its potential impact, emphasizing its value and relevance.-->
+- [io_interfaces.py](../juypter/pybf/pybf/io_interfaces.py) contains two classes: `DataLoader`and `ImageLoader`
+    - **DataLoader**: loads required data (from [this README](../juypter/pybf/tests/data/README.md)) out of the **.hdf5** file that can be downloaded from the polybox link. Code must be adapted to handle PICMUS itself
+        - Are there even all the required data categories in the datasets provided by PICMUS?
