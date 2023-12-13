@@ -8,6 +8,6 @@ Linking to other .md files is done with *relative links*, as is described [here]
     - sources of noise
 - [Python Environment Overview](<important environments.md>)
 - [Hierarchical Data Format v5](HDF5.md)
-- [PICMUS Dataset]((PICMUS.md))
+- [PICMUS Dataset](PICMUS.md)
 - [PyBF Library](<PyBF Library.md>)
 - another note
