@@ -10,4 +10,5 @@ Linking to other .md files is done with *relative links*, as is described [here]
 - [Hierarchical Data Format v5](HDF5.md)
 - [PICMUS Dataset](PICMUS.md)
 - [PyBF Library](<PyBF Library.md>)
+    - [picmus_eval.py reference note](<reference notes/picmus_eval.py reference note.md>)
 - another note
