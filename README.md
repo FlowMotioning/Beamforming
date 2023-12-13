@@ -44,7 +44,7 @@ The BIG steps until project completion:
     - [x] Migrate ToDos to Trello
 - [ ] Reconstructing Images from PICMUS dataset
     - [x] naive method (straigth beam into tissue with reflections)
-    - [ ] summation from different angles to cancel out noise
+    - [ ] summation from different angles to cancel out noise (compound imaging)
 - [ ] Presentation
     - [ ] decide what data we want to have presentable in the end
 
