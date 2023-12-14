@@ -19,6 +19,10 @@ Beamforming with DAS (Delay-and-Sum):
 - To better enable source control the **beamformer algorithms** should NOT be in jupyter notebooks (because it is like a website and html is absolutely miserable to read in raw format)
 - Code that produces output (images, arrays, other data) should be done in jupyter notebooks (because notebooks have very easy output handling) -> e.g.: call function `beamformer.py` from notebook to execute code, but produce output in jupyter. 
 
+Project code is here: 
+- [FWMH and contrast from PICMUS.ipynb](<juypter/FWMH and contrast from PICMUS.ipynb>)
+- [main notebook.ipynb](<juypter/main notebook.ipynb>)
+
 ## PICMUS Datasets
 
 This project uses the PICMUS dataset. However, due to other priorities an already adapted version of the same data, with a different architecture in the .hdf5 files is used. To find this dataset, please refer to [PyBF Library](<notes/PyBF Library.md>) note. 
