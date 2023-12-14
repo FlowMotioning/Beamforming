@@ -9,7 +9,7 @@ Library by Sergei [GitHub Link](https://github.com/Sergio5714/pybf/tree/master) 
 
 See [Structure of the repository](https://github.com/Sergio5714/pybf/tree/master#structure-of-the-repository) to get overview of the package:
 - `pybf` contains low level routines
-- `scripts`: here are the functions that implement even entire piple for image reconstruction
+- `scripts`: here are the functions that implement even entire pipeline for image reconstruction
 - `tests`: some testing functions to determine the quality and performance of the data/algorithms. There are tests that use the **PICMUS** dataset. IMPORTANT: put the folder `Picmus` into the pybf library, such that the path is `Beamforming/juypter/pybf/tests/data/Picmus`
 
 ## Implementation
