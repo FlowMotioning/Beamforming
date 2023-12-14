@@ -2,6 +2,7 @@
 General idea: A-mode ultrasound data from many neighboring transducers. Reconstructing these signals into images is called B-mode ultrasound. We know the depth from where the reflections originate, and should be able to attribute each change in propagation speed (of send out soundwave) at tissue borders to one transducer. The process to get the 2D brightness map from raw ultrasound data is called **beamforming**. 
 
 - [Project Proposal Slide](<media/wups project proposal.png>)
+    - Goal: see how different selections of transducers and plane waves affect the image quality
 
 Please refer to the [notes](notes/mindmap.md) for theory and explanation of this technology
 
@@ -20,11 +21,7 @@ Beamforming with DAS (Delay-and-Sum):
 
 ## PICMUS Datasets
 
-It is basically a bad idea to put the 0.5 GB into the repo on GitHub. Therefore here are the instructions where to put the dataset downloaded from PICMUS challenge [dataset](https://www.creatis.insa-lyon.fr/Challenge/IEEE_IUS_2016/download). 
-- download the .zip archive and extract into root of this project. File path should be something like this: `Beamforming/archive_to_download/read_me.txt` (only one archive_to_download folder until reaching the read_me.txt file)
-
-For the **in vivo** [dataset](https://www.creatis.insa-lyon.fr/Challenge/IEEE_IUS_2016/download):
-- `Beamforming/in_vivo/read_me.txt`
+This project uses the PICMUS dataset. However, due to other priorities an already adapted version of the same data, with a different architecture in the .hdf5 files is used. To find this dataset, please refer to [PyBF Library](<notes/PyBF Library.md>) note. 
 
 ## Git and GitHub
 
@@ -39,18 +36,16 @@ I found [this](https://medium.com/@jonathanmines/the-ultimate-github-collaborati
 
 The BIG steps until project completion:
 
-- [ ] Understand beamforming
+- [x] Understand beamforming
 - [x] Setup Project Roadmap
     - [x] Migrate ToDos to Trello
 - [ ] Reconstructing Images from PICMUS dataset
-    - [x] naive method (straigth beam into tissue with reflections)
-    - [ ] summation from different angles to cancel out noise (compound imaging)
 - [ ] Presentation
-    - [ ] decide what data we want to have presentable in the end
+    - [x] decide what data we want to have presentable in the end
 
 ## Trello
 
-I am currently working on migrating these [ToDos to trello](https://trello.com/b/LNgm3pRo), because Kanban is the better tool for project planning imo
+TODOs are on [Trello](https://trello.com/b/LNgm3pRo), because Kanban is the better tool for project planning imo
 - small [introduction to kanban](https://www.atlassian.com/agile/kanban):
     - visual representation of project (transparency and overview of work being done)
     - flexible assignment of tasks
