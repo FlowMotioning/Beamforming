@@ -1,6 +1,8 @@
 # ignored directories
 **.pyc
 
-archive_to_download
+archive_to_download/code
 
 in_vivo
+
+*.hdf5

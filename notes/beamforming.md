@@ -23,7 +23,8 @@ Transducer-array produces a "beam" of ultrasound (a plane of ultrasound) and "sc
 <img src='../juypter/images/ex6_beamforming.drawio.png' width="1000">
 
 - Algortihm called **Beamformer** takes raw ultrasound data from a transducer array and performs steps to filter, extract envelope, combine individual transducers, and render image (See [Beamforming Delay and Sum](beamforming_DAS.md) note for more info)
-- another algorithm: ...
+- another algorithm: [Compounding Imaging]()
+- important statistical concept is the **covariance matrix**. It is an estimate of the influence different channel-pairs have on their signals (how strongly channel 1 affects channel 2). The inverse of this matrix is used in algorithms like MVDR (minimum variance distortionless response) and Capon beamformers. 
 
 ## Use Cases
 <!-- [Provide examples or scenarios where the concept can be applied.] -->
@@ -36,3 +37,4 @@ Transducer-array produces a "beam" of ultrasound (a plane of ultrasound) and "sc
 
 
 - Requires lots of computation?
+- sources of [noise in beamforming](<noise in beamforming.md>)

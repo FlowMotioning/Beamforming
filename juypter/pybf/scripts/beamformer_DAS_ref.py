@@ -112,6 +112,7 @@ class BFCartesianReference(BFCartesianRealTime):
             # Make delay and sum operation + apodization                                    
             das_out[i,:], raw_data, self.mask = self._delay_and_sum(rf_data_proc_trans, 
                                                    delays_samples.reshape(1, delays_samples.shape[0], -1))
+            print(self.bf_data)
             self.bf_data.append(raw_data)
         
         self.bf_data = np.asarray(self.bf_data)

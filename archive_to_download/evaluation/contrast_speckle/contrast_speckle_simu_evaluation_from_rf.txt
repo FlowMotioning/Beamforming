@@ -1,0 +1,96 @@
+#C1 
+
+Mean contrast scores (dB): 9.96 
+
+Left column targets 
+9.00
+10.30
+9.60
+
+Middle column targets 
+9.80
+10.70
+10.70
+
+Right column targets 
+9.10
+10.50
+9.90
+
+PENALITY: 0
+Speckle quality (from Kolmogorov-Smirnov test) 
+
+#END
+
+#C11 
+
+Mean contrast scores (dB): 12.49 
+
+Left column targets 
+11.40
+11.60
+12.80
+
+Middle column targets 
+11.10
+13.70
+15.30
+
+Right column targets 
+11.20
+12.10
+13.20
+
+PENALITY: 0
+Speckle quality (from Kolmogorov-Smirnov test) 
+
+#END
+
+#C75 
+
+Mean contrast scores (dB): 15.56 
+
+Left column targets 
+15.50
+15.30
+14.20
+
+Middle column targets 
+16.30
+16.20
+15.90
+
+Right column targets 
+15.90
+15.50
+15.20
+
+PENALITY: 0
+Speckle quality (from Kolmogorov-Smirnov test) 
+
+#END
+
+#BONUS-C3 
+
+Mean contrast scores (dB): 8.21 
+
+Left column targets 
+7.10
+7.40
+9.00
+
+Middle column targets 
+6.30
+9.60
+11.20
+
+Right column targets 
+6.60
+7.10
+9.60
+
+PENALITY: 0
+Speckle quality (from Kolmogorov-Smirnov test) 
+
+#END
+
